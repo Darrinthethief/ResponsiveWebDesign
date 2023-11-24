@@ -4,13 +4,17 @@
     margin: 0;
 }
 
+body {
+    font-family: 'Poppins', 'sans-serif';
+}
+
 /* Navigation Bar */
 
 #header {
     position: fixed;
     display: flex;
     justify-content: space-between;
-    background-color: bisque;
+    background-color: rgb(35, 35, 34);
     padding: 10px 25px;
     width: 100%;
 }
@@ -29,22 +33,29 @@
     display: inline;
 }
 
+#nav-title {
+    color: #338de6;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+}
+
 #nav-bar a {
     text-decoration: none;
     margin-left: 10px;
+    color: #338de6;
+    font-weight: 800;
+    font-size: 18px;
 }
 
 /* Main Section */
 
-main {
-    padding-top: 12.5rem;
-}
-
 #title {
     text-align: center;
     font-size: 48px;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: 6em;
+    padding-bottom: 1em;
 }
 
 .section-image {
@@ -55,20 +66,22 @@ main {
 
 #apple-img {
     height: 550px;
-    width: 800px;
+    width: 900px;
 }
 
 .video-apple {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 8em;
+    padding-bottom: 8em;
 }
 
 #video {
     height: 400px;
     width: 600px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 5em;
+    padding-bottom: 1em;
 }
 
 /* Form Section in the Main Section */
@@ -79,8 +92,26 @@ main {
     padding-bottom: 10px;
     display: flex;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+
+form {
+    width: 860px;
+    align-items: center;
+    justify-self: center;
+}
+
+.title-subscribe {
+    text-align: center;
+}
+
+.sign-up {
+    justify-self: center;
+    border: 1px solid black;
+    padding-right: 100px
+}
+
 
 /* Footer */
 
@@ -89,6 +120,8 @@ main {
     border: 1px solid black;
     width: 100%;
     justify-content: center;
+    padding: 20px 30px;
+    background-color: rgb(35, 35, 34);
 }
 
 nav li {
@@ -97,4 +130,8 @@ nav li {
 
 .footer-nav a {
     text-decoration: none;
+    margin-left: 30px;
+    font-size: 18px;
+    color: #338de6;
+    font-weight: 700;
 }

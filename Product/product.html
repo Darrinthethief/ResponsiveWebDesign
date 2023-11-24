@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header id="header">
@@ -13,7 +16,7 @@
         </div>
 
         <div class="header-nav">
-            <h3>Apple AirMax Review</h3>
+            <h3 id="nav-title">Apple AirMax Review</h3>
         </div>
 
         <div class="header-nav">
@@ -43,11 +46,13 @@
         <section class="form">
             <form id="form" action="https://www.freecodecamp.com/email-submit">
                 <h2 class="title-subscribe">AirPods Max Update Subscription</h2>
-                <label class="label" for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="Name" required><br>
-                <label class="label" for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Email" required><br>
-                <input type="submit" id="submit" value="Submit">
+                <div class="sign-up">
+                    <label class="label" for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Name" required><br>
+                    <label class="label" for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required><br>
+                    <input type="submit" id="submit" value="Submit">
+                </div>
             </form>
         </section>
     </main>

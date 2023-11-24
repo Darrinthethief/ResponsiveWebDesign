@@ -1,0 +1,100 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation Bar */
+
+#header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+    padding: 10px 25px;
+    width: 100%;
+}
+
+#header-img {
+    height: 150px;
+    width: 150px;
+}
+
+.header-nav {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#nav-bar ul li {
+    display: inline;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/* Main Section */
+
+main {
+    padding-top: 12.5rem;
+}
+
+#title {
+    text-align: center;
+    font-size: 48px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.section-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#apple-img {
+    height: 550px;
+    width: 800px;
+}
+
+.video-apple {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#video {
+    height: 400px;
+    width: 600px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* Form Section in the Main Section */
+
+.form {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    justify-content: center;
+}
+
+nav li {
+    display: inline;
+}
+
+.footer-nav a {
+    text-decoration: none;
+}
